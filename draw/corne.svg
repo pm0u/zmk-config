@@ -304,8 +304,7 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <g transform="translate(762, 175)" class="key keypos-29">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">?</text>
-<text x="0" y="-26" class="key shifted">!</text>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 83%">&amp;qexcl</tspan></text>
 </g>
 <g transform="translate(183, 223)" class="key keypos-30">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
@@ -337,9 +336,10 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <g transform="translate(610, 223)" class="key keypos-35">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<a href="#num">
-<text x="0" y="-4" class="key tap layer-activator">num</text>
-</a></g>
+<text x="0" y="-4" class="key tap">
+<tspan x="0" dy="-1.2em" style="font-size: 62%">&amp;mo</tspan><tspan x="0" dy="1.2em" style="font-size: 62%">1</tspan><tspan x="0" dy="1.2em" style="font-size: 62%">K_CANCEL</tspan>
+</text>
+</g>
 <g class="combo combopos-0">
 <path d="M152,-12 h-55 a6.0,6.0 0 0 0 -6.0,6.0 v23" class="combo"/>
 <path d="M152,-12 h55 a6.0,6.0 0 0 1 6.0,6.0 v23" class="combo"/>
@@ -638,9 +638,9 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
-<g transform="translate(610, 223)" class="key held keypos-35">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key held side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key held"/>
+<g transform="translate(610, 223)" class="key trans keypos-35">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="173" y="80" width="20" height="30" class="combo"/>
@@ -1402,9 +1402,9 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
-<g transform="translate(610, 223)" class="key held keypos-35">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key held side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key held"/>
+<g transform="translate(610, 223)" class="key trans keypos-35">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
 </g>
 </g>

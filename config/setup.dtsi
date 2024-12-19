@@ -31,3 +31,9 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 &sk {
     quick-release;   // no double capitalization when rolling keys
 };
+
+&lt {
+    flavor = "hold-preferred";
+    // not sure on that one yet..
+    //retro-tap;
+}

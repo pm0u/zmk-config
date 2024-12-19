@@ -30,13 +30,13 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - {t: '?', s: '!'}
+  - '&qexcl'
   - '&nav'
   - {t: LSHFT, h: sticky, s: CAPSWORD}
   - ␣
   - ⮐
   - BSPC
-  - num
+  - '&mo 1 K_CANCEL'
   num:
   - {type: trans}
   - {t: '7', s: '&'}
@@ -73,7 +73,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: held}
+  - {type: trans}
   nav:
   - {type: trans}
   - {t: ⌘+7, s: ⌘+&}
@@ -184,7 +184,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: held}
+  - {type: trans}
 combos:
 - p: [1, 3]
   k: ^+A
