@@ -30,7 +30,7 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - '&qexcl'
+  - {t: '?', s: '!'}
   - '&nav'
   - {t: LSHFT, h: sticky, s: CAPSWORD}
   - ␣
@@ -111,6 +111,43 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
+  move:
+  - {type: trans}
+  - {t: ⌘+⇧+7, s: ⌘+⇧+&}
+  - {t: ⌘+⇧+8, s: ⌘+⇧+*}
+  - {t: ⌘+⇧+9, s: ⌘+⇧+(}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: ⌘+⇧+4, s: ⌘+⇧+$}
+  - {t: ⌘+⇧+5, s: ⌘+⇧+%}
+  - {t: ⌘+⇧+6, s: ⌘+⇧+^}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: ⌘+⇧+1, s: ⌘+⇧+!}
+  - {t: ⌘+⇧+2, s: ⌘+⇧+@}
+  - {t: ⌘+⇧+3, s: ⌘+⇧+#}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {t: ⌘+⇧+0, s: ⌘+⇧+)}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
   util:
   - {type: trans}
   - $$mdi:skip-previous$$
@@ -147,7 +184,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: held}
+  - {type: trans}
   <[smart]>:
   - {type: trans}
   - {type: trans}
@@ -227,10 +264,10 @@ combos:
   l: [base, nav, num]
 - p: [16, 17]
   k: {t: '&l_than', h: ⇧+Gui}
-  l: ['<[smart]>']
+  l: [util]
 - p: [17, 18]
   k: {t: '&g_than', h: ⌘+Ctrl}
-  l: ['<[smart]>']
+  l: [util]
 - p: [26, 27]
   k: {t: '{', s: '&smrt_brk LBKT'}
   l: [base, nav, num]
@@ -239,10 +276,10 @@ combos:
   l: [base, nav, num]
 - p: [26, 27]
   k: '['
-  l: ['<[smart]>']
+  l: [util]
 - p: [27, 28]
   k: ']'
-  l: ['<[smart]>']
+  l: [util]
 - p: [11, 1]
   k: '@'
   l: [base, nav, num]
