@@ -68,7 +68,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - .
+  - {t: ., h: nav}
   - {t: '0', s: )}
   - {type: trans}
   - {type: trans}
@@ -105,12 +105,12 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - {type: held}
   - {t: ⌘+0, s: ⌘+)}
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - {type: held}
   move:
   - {type: trans}
   - {t: ⌘+⇧+7, s: ⌘+⇧+&}
@@ -179,7 +179,7 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {type: trans}
+  - {type: held}
   - {type: trans}
   - {type: trans}
   - {type: trans}
