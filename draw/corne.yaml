@@ -30,7 +30,7 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - '&qexcl'
+  - {t: '?', s: '!'}
   - '&nav'
   - {t: LSHFT, h: sticky, s: CAPSWORD}
   - ␣
