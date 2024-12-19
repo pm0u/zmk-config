@@ -50,7 +50,7 @@ ZMK_BEHAVIOR(g_than, tap_dance,
 
 ZMK_BEHAVIOR(nav, tap_dance,
     tapping-term-ms = <400>;
-    bindings = <&mo NAV>, <&mo MV>;
+    bindings = <&mo NAV>, <&lm NAV LSHIFT>;
 )
 
 // for some reason this seems to be order dependent

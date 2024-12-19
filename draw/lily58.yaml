@@ -49,7 +49,7 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - {t: '?', s: '!'}
+  - '&qexcl'
   - {type: trans}
   - {type: trans}
   - '&nav'
@@ -177,65 +177,6 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  move:
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {t: ⌘+⇧+7, s: ⌘+⇧+&}
-  - {t: ⌘+⇧+8, s: ⌘+⇧+*}
-  - {t: ⌘+⇧+9, s: ⌘+⇧+(}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {t: ⌘+⇧+4, s: ⌘+⇧+$}
-  - {t: ⌘+⇧+5, s: ⌘+⇧+%}
-  - {t: ⌘+⇧+6, s: ⌘+⇧+^}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {t: ⌘+⇧+1, s: ⌘+⇧+!}
-  - {t: ⌘+⇧+2, s: ⌘+⇧+@}
-  - {t: ⌘+⇧+3, s: ⌘+⇧+#}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {t: ⌘+⇧+0, s: ⌘+⇧+)}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
   util:
   - {type: trans}
   - {type: trans}
@@ -328,8 +269,6 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - <
-  - '>'
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -342,8 +281,10 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - '['
-  - ']'
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -394,12 +335,24 @@ combos:
 - p: [32, 33]
   k: {t: ), h: ⌘+Ctrl, s: '&smrt_brk GREATER_THAN'}
   l: [base, nav, num]
+- p: [31, 32]
+  k: {t: '&l_than', h: ⇧+Gui}
+  l: ['<[smart]>']
+- p: [32, 33]
+  k: {t: '&g_than', h: ⌘+Ctrl}
+  l: ['<[smart]>']
 - p: [45, 46]
   k: {t: '{', s: '&smrt_brk LBKT'}
   l: [base, nav, num]
 - p: [46, 47]
   k: {t: '}', s: '&smrt_brk RBKT'}
   l: [base, nav, num]
+- p: [45, 46]
+  k: '['
+  l: ['<[smart]>']
+- p: [46, 47]
+  k: ']'
+  l: ['<[smart]>']
 - p: [26, 14]
   k: '@'
   l: [base, nav, num]
