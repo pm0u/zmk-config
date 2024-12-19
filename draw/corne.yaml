@@ -147,7 +147,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: held}
+  - {type: trans}
   util:
   - {type: trans}
   - $$mdi:skip-previous$$
@@ -184,7 +184,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - {type: held}
   <[smart]>:
   - {type: trans}
   - {type: trans}
@@ -264,10 +264,10 @@ combos:
   l: [base, nav, num]
 - p: [16, 17]
   k: {t: '&l_than', h: ⇧+Gui}
-  l: [util]
+  l: ['<[smart]>']
 - p: [17, 18]
   k: {t: '&g_than', h: ⌘+Ctrl}
-  l: [util]
+  l: ['<[smart]>']
 - p: [26, 27]
   k: {t: '{', s: '&smrt_brk LBKT'}
   l: [base, nav, num]
@@ -276,10 +276,10 @@ combos:
   l: [base, nav, num]
 - p: [26, 27]
   k: '['
-  l: [util]
+  l: ['<[smart]>']
 - p: [27, 28]
   k: ']'
-  l: [util]
+  l: ['<[smart]>']
 - p: [11, 1]
   k: '@'
   l: [base, nav, num]
