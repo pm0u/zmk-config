@@ -6,8 +6,9 @@
 #define BASE    0
 #define NUM     1
 #define NAV     2
-#define UTIL    3
-#define SMRT    4
+#define MV      3
+#define UTIL    4
+#define SMRT    5
 
 #include "extras.h"
 #include "setup.dtsi"
