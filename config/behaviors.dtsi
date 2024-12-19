@@ -50,12 +50,12 @@ ZMK_BEHAVIOR(g_than, tap_dance,
 
 ZMK_BEHAVIOR(lbrk, tap_dance,
     tapping-term-ms = <0>;
-    bindings = <&kp LBRKT>;
+    bindings = <&kp LBKT>;
 )
 
 ZMK_BEHAVIOR(rbrk, tap_dance,
     tapping-term-ms = <0>;
-    bindings = <&kp RBRKT>;
+    bindings = <&kp RBKT>;
 )
 
 ZMK_BEHAVIOR(nav, tap_dance,
