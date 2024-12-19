@@ -2,6 +2,6 @@
 ZMK_MACRO_ONE_PARAM(
   smrt_brk,
   bindings = <&macro_param_1to1>,
-             <&macro_tap &kp MACRO_PLACEHOLDER>,
-             <&macro_tap &sk SMRT>;
+             <&kp MACRO_PLACEHOLDER>,
+             <&sl SMRT>;
 )
