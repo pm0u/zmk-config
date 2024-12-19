@@ -36,7 +36,7 @@ layers:
   - ␣
   - ⮐
   - BSPC
-  - '&mo 1 K_CANCEL'
+  - {t: CANCEL, h: num}
   num:
   - {type: trans}
   - {t: '7', s: '&'}
@@ -73,7 +73,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - {type: held}
   nav:
   - {type: trans}
   - {t: ⌘+7, s: ⌘+&}
@@ -184,7 +184,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - {type: held}
 combos:
 - p: [1, 3]
   k: ^+A
