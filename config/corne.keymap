@@ -1,6 +1,6 @@
 
 #include <zmk-helpers/key-labels/36.h>
-#include "helpers.h"
+#include "shared/helpers.h"
 
 /*                              36 KEY MATRIX / LAYOUT MAPPING
 

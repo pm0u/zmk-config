@@ -1,6 +1,6 @@
 // Custom labels so that homerow and bottom line up with corne
 #include "key-labels/lily58.h"
-#include "helpers.h"
+#include "shared/helpers.h"
 
 /*               58 KEY MATRIX / LAYOUT MAPPING
 
