@@ -263,10 +263,10 @@ combos:
   k: {t: ), h: ⌘+Ctrl, s: '&smrt_brk GREATER_THAN'}
   l: [base, nav, num]
 - p: [16, 17]
-  k: {t: LESS THAN 0, h: ⇧+Gui}
+  k: {t: '&l_than', h: ⇧+Gui}
   l: ['<[smart]>']
 - p: [17, 18]
-  k: {t: GREATER THAN 0, h: ⌘+Ctrl}
+  k: {t: '&g_than', h: ⌘+Ctrl}
   l: ['<[smart]>']
 - p: [26, 27]
   k: {t: '{', s: '&smrt_brk LBKT'}
