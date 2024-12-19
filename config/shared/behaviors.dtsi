@@ -63,6 +63,4 @@ ZMK_BEHAVIOR(nav, tap_dance,
     bindings = <&mo NAV>, <&mo MV>;
 )
 
-// for some reason this seems to be order dependent
 ZMK_CONDITIONAL_LAYER(util, NAV NUM, UTIL)
-ZMK_CONDITIONAL_LAYER(util, NUM NAV, UTIL)
