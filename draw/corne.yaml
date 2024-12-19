@@ -185,6 +185,43 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: held}
+  <[smart]>:
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - <
+  - '>'
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - '['
+  - ']'
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
 combos:
 - p: [1, 3]
   k: ^+A
@@ -220,16 +257,16 @@ combos:
   k: ⌦
   l: [base, nav, num]
 - p: [16, 17]
-  k: {t: (, h: ⇧+Gui, s: <}
+  k: {t: (, h: ⇧+Gui, s: '&smrt_brk LESS_THAN'}
   l: [base, nav, num]
 - p: [17, 18]
-  k: {t: ), h: ⌘+Ctrl, s: '>'}
+  k: {t: ), h: ⌘+Ctrl, s: '&smrt_brk GREATER_THAN'}
   l: [base, nav, num]
 - p: [26, 27]
-  k: {t: '{', s: '['}
+  k: {t: '{', s: '&smrt_brk LBKT'}
   l: [base, nav, num]
 - p: [27, 28]
-  k: {t: '}', s: ']'}
+  k: {t: '}', s: '&smrt_brk RBKT'}
   l: [base, nav, num]
 - p: [11, 1]
   k: '@'
