@@ -2096,11 +2096,11 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="752" y="202" width="20" height="30" class="combo"/>
-<text x="762" y="217" class="combo tap">[</text>
+<text x="762" y="217" class="combo tap">&amp;lbrk</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="814" y="202" width="20" height="30" class="combo"/>
-<text x="824" y="217" class="combo tap">]</text>
+<text x="824" y="217" class="combo tap">&amp;rbrk</text>
 </g>
 </g>
 </g>

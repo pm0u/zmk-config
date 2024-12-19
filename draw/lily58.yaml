@@ -407,10 +407,10 @@ combos:
   k: {t: '}', s: '&smrt_brk RBKT'}
   l: [base, nav, num]
 - p: [45, 46]
-  k: '['
+  k: '&lbrk'
   l: ['<[smart]>']
 - p: [46, 47]
-  k: ']'
+  k: '&rbrk'
   l: ['<[smart]>']
 - p: [26, 14]
   k: '@'
