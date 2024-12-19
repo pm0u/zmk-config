@@ -16,7 +16,7 @@ jobs:
     permissions:
       contents: write # allow workflow to commit to the repo
     with:
-      ammend_commit: true
+      amend_commit: true
       west_config_path: "config"
       keymap_patterns: "config/corne.keymap" # path to the keymaps to parse
       config_path: "keymap_drawer.config.yaml" # config file, ignored if not exists
