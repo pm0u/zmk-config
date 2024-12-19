@@ -380,7 +380,8 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <g transform="translate(915, 236)" class="key keypos-48">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap"><tspan style="font-size: 83%">&amp;qexcl</tspan></text>
+<text x="0" y="-4" class="key tap">?</text>
+<text x="0" y="-26" class="key shifted">!</text>
 </g>
 <g transform="translate(976, 244)" class="key trans keypos-49">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
@@ -420,10 +421,10 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <g transform="translate(762, 284)" class="key keypos-56">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 62%">&amp;mo</tspan><tspan x="0" dy="1.2em" style="font-size: 62%">1</tspan><tspan x="0" dy="1.2em" style="font-size: 62%">K_CANCEL</tspan>
-</text>
-</g>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 83%">CANCEL</tspan></text>
+<a href="#num">
+<text x="0" y="26" class="key hold layer-activator">num</text>
+</a></g>
 <g transform="translate(824, 284)" class="key trans keypos-57">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
@@ -810,9 +811,9 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
-<g transform="translate(762, 284)" class="key trans keypos-56">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
+<g transform="translate(762, 284)" class="key held keypos-56">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key held side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key held"/>
 </g>
 <g transform="translate(824, 284)" class="key trans keypos-57">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
@@ -1838,9 +1839,9 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
-<g transform="translate(762, 284)" class="key trans keypos-56">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
+<g transform="translate(762, 284)" class="key held keypos-56">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key held side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key held"/>
 </g>
 <g transform="translate(824, 284)" class="key trans keypos-57">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>

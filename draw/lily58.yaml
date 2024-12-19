@@ -49,7 +49,7 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - '&qexcl'
+  - {t: '?', s: '!'}
   - {type: trans}
   - {type: trans}
   - '&nav'
@@ -57,7 +57,7 @@ layers:
   - ␣
   - ⮐
   - BSPC
-  - '&mo 1 K_CANCEL'
+  - {t: CANCEL, h: num}
   - {type: trans}
   num:
   - {type: trans}
@@ -116,7 +116,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - {type: held}
   - {type: trans}
   nav:
   - {type: trans}
@@ -293,7 +293,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
+  - {type: held}
   - {type: trans}
 combos:
 - p: [14, 16]
