@@ -7,9 +7,9 @@
 // tap: qmark | shift + tap: excl
 SIMPLE_MORPH(qexcl, SFT, &kp QMARK, &kp EXCL)
 // Tap: lparens  |  shift + tap: <
-SIMPLE_MORPH(lpar_lt, SFT, &kp LPAR, &smrt_brk LESS_THAN)
+SIMPLE_MORPH(lpar_lt, SFT, &kp LPAR, &kp LESS_THAN)
 // Tap: lparens  |  shift + tap: <
-SIMPLE_MORPH(rpar_gt, SFT, &kp RPAR, &smrt_brk GREATER_THAN)
+SIMPLE_MORPH(rpar_gt, SFT, &kp RPAR, &kp GREATER_THAN)
 
 // tap: comma | shift + tap: semicolon | ctrl + shift + tap: <
 SIMPLE_MORPH(comma_semi, SFT, &kp COMMA, &kp SEMI)
@@ -18,8 +18,8 @@ SIMPLE_MORPH(comma_semi, SFT, &kp COMMA, &kp SEMI)
 SIMPLE_MORPH(dot_colon, SFT, &kp DOT, &kp COLON)
 
 // tap { | shift + tap: [
-SIMPLE_MORPH(lbrc, SFT, &kp LBRC, &smrt_brk LBKT)
-SIMPLE_MORPH(rbrc, SFT, &kp RBRC, &smrt_brk RBKT)
+SIMPLE_MORPH(lbrc, SFT, &kp LBRC, &kp LBKT)
+SIMPLE_MORPH(rbrc, SFT, &kp RBRC, &kp RBKT)
 
 // tap: sticky-shift | shift + tap/ double-tap: caps-word | hold: shift
 ZMK_MOD_MORPH(smart_shft,

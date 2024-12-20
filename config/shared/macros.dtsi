@@ -1,7 +1,0 @@
-
-ZMK_MACRO_ONE_PARAM(
-  smrt_brk,
-  bindings = <&macro_param_1to1>,
-             <&kp MACRO_PLACEHOLDER>,
-             <&sl SMRT>;
-)
