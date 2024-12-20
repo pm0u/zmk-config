@@ -251,41 +251,41 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - '&bootloader'
+  - '&bootloader'
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
   - $$mdi:skip-next$$
-  - '&bootloader'
-  - '&bootloader'
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - $$mdi:volume-off$$
-  - VOL UP
-  - VOL DN
-  - {type: trans}
-  - BT CLR
-  - BRI DN
-  - BRI UP
   - OUT BLE
   - OUT USB
+  - BRI UP
+  - BRI DN
+  - BT CLR
+  - {type: trans}
+  - VOL DN
+  - VOL UP
+  - $$mdi:volume-off$$
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
   - {t: BT, h: '4'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: held}
@@ -298,15 +298,15 @@ layers:
 combos:
 - p: [14, 16]
   k: ^+A
-  l: [base, nav]
+  l: [base, nav, num]
   a: top
   o: 0.3
 - p: [14, 15]
   k: ^+Z
-  l: [base, nav]
+  l: [base, nav, num]
 - p: [15, 16]
   k: ^+⇧+Z
-  l: [base, nav]
+  l: [base, nav, num]
 - p: [28, 27]
   k: {t: Tab, h: ⇧+Gui}
   l: [base, nav, num]
@@ -315,14 +315,14 @@ combos:
   l: [base, nav, num]
 - p: [38, 40]
   k: ^+X
-  l: [base, nav]
+  l: [base, nav, num]
   a: bottom
 - p: [38, 39]
   k: ^+C
-  l: [base, nav]
+  l: [base, nav, num]
 - p: [39, 40]
   k: ^+V
-  l: [base, nav]
+  l: [base, nav, num]
 - p: [19, 20]
   k: BSPC
   l: [base, nav, num]
