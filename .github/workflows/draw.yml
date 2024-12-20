@@ -4,7 +4,7 @@ on:
   workflow_dispatch: # can be triggered manually
   push: # automatically run on changes to following paths
     paths:
-      - ".github/draw.yml"
+      - ".github/workflows/draw.yml"
       - "config/**/*.keymap"
       - "config/**/*.dtsi"
       - "config/**/*.h"
