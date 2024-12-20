@@ -8,7 +8,6 @@
 #define NAV     2
 #define MV      3
 #define UTIL    4
-#define SMRT    5
 
 #include "shared/extras.h"
 #include "shared/setup.dtsi"
