@@ -54,8 +54,8 @@ parse_config:
       "&hml LSHIFT F": { t: "F", h: "Shift" },
       "&esc": { t: "Esc" },
       "&tab": { t: "Tab" },
-      "&kp LC(UP)": "$$mdi:dock-window$$",
-      "&kp LC(SEMI)": "$$mdi:magnify$$",
+      "&kp LG(UP)": "$$mdi:dock-window$$",
+      "&kp LG(SEMI)": "$$mdi:magnify$$",
     }
   sticky_label: sticky
   toggle_label: toggle
