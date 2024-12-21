@@ -85,11 +85,11 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - $$mdi:magnify$$
+  - $$mdi:dock-window$$
   - {t: ⌘+4, s: ⌘+$}
   - {t: ⌘+5, s: ⌘+%}
   - {t: ⌘+6, s: ⌘+^}
-  - $$mdi:dock-window$$
+  - $$mdi:magnify$$
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-up$$
