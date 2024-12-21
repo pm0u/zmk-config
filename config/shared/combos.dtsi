@@ -14,7 +14,7 @@
  * if too slow = false positives in rolls
  * if too fast = types out both letters instead
  */
-#define COMBO_TERM_FAST 45
+#define COMBO_TERM_FAST 40
 #define COMBO_TERM_SLOW 60
 
 /**
