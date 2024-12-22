@@ -607,22 +607,22 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <g transform="translate(518, 107)" class="key keypos-15">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">⌘+h</text>
+<text x="0" y="-4" class="key tap">⌘+H</text>
 </g>
 <g transform="translate(580, 99)" class="key keypos-16">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">⌘+j</text>
+<text x="0" y="-4" class="key tap">⌘+J</text>
 </g>
 <g transform="translate(640, 92)" class="key keypos-17">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">⌘+k</text>
+<text x="0" y="-4" class="key tap">⌘+K</text>
 </g>
 <g transform="translate(702, 99)" class="key keypos-18">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
-<text x="0" y="-4" class="key tap">⌘+l</text>
+<text x="0" y="-4" class="key tap">⌘+L</text>
 </g>
 <g transform="translate(762, 114)" class="key trans keypos-19">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
