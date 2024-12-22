@@ -37,3 +37,12 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
     // not sure on that one yet..
     //retro-tap;
 };
+
+// reusable arrow keys ← ↓ ↑ →
+#define ARROWS  &kp LEFT &kp DOWN &kp UP &kp RIGHT
+
+// space move cluster
+#define FOCUS &kp LG(h) &kp LG(j) &kp LG(k) &kp LG(l)
+
+// tab change
+#define TABS &kp LG(LBKT) &kp LG(RBKT)
