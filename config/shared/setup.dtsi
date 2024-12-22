@@ -42,7 +42,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 #define ARROWS  &kp LEFT &kp DOWN &kp UP &kp RIGHT
 
 // space move cluster
-#define FOCUS &kp LG(h) &kp LG(j) &kp LG(k) &kp LG(l)
+#define FOCUS &kp LG(H) &kp LG(J) &kp LG(K) &kp LG(L)
 
 // tab change
 #define TABS &kp LG(LBKT) &kp LG(RBKT)
