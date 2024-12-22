@@ -53,10 +53,10 @@ layers:
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-up$$
+  - $$mdi:arrow-right$$
   - {type: trans}
   - {type: trans}
   - {t: '1', s: '!'}
@@ -81,8 +81,8 @@ layers:
   - {t: ⌘+9, s: ⌘+(}
   - {type: trans}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - ⌘+[
+  - ⌘+]
   - {type: trans}
   - {type: trans}
   - $$mdi:dock-window$$
@@ -90,10 +90,10 @@ layers:
   - {t: ⌘+5, s: ⌘+%}
   - {t: ⌘+6, s: ⌘+^}
   - $$mdi:magnify$$
-  - $$mdi:arrow-left$$
-  - $$mdi:arrow-down$$
-  - $$mdi:arrow-up$$
-  - $$mdi:arrow-right$$
+  - ⌘+h
+  - ⌘+j
+  - ⌘+k
+  - ⌘+l
   - {type: trans}
   - {type: trans}
   - {t: ⌘+1, s: ⌘+!}
