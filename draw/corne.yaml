@@ -81,8 +81,8 @@ layers:
   - {t: ⌘+9, s: ⌘+(}
   - {type: trans}
   - {type: trans}
-  - ⌘+[
-  - ⌘+]
+  - ^+[
+  - ^+]
   - {type: trans}
   - {type: trans}
   - $$mdi:dock-window$$
@@ -90,10 +90,10 @@ layers:
   - {t: ⌘+5, s: ⌘+%}
   - {t: ⌘+6, s: ⌘+^}
   - $$mdi:magnify$$
-  - ⌘+H
-  - ⌘+J
-  - ⌘+K
-  - ⌘+L
+  - ^+H
+  - ^+J
+  - ^+K
+  - ^+L
   - {type: trans}
   - {type: trans}
   - {t: ⌘+1, s: ⌘+!}
