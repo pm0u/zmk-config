@@ -22,9 +22,16 @@
 
 ## Layer Explanation
 
-- `num` layer provides a southpaw numpad. Carries over left + right combos from base layer.
-- `nav` layer overlays arrow keys over hjkl for easier navigation in non-vim settings. Combos are "shifted" on the right hand (</> and \[/\]). The numpad also has `LG()` applied to all numbers for space changing
+- combos are available on base, nav, num layers.
+- `num` layer provides a southpaw numpad.
+- `nav` layer overlays arrow keys over hjkl for easier navigation in non-vim settings. The numpad also has `LG()` applied to all numbers for space changing. there are shortcuts for alfred and mission control on the homerow.
 - `mv` provides single handed window space movement (mod+shift applied over num layer). This is accessed via a double tap of the `NAV` layer key.
 - `util` is a conditional layer triggered by activating num/nav. this is a bit of a dumping ground for os/media/zmk utils.
+
+### Combos
+
+![keymap](/draw/combos.svg)
+
+### Layers
 
 ![keymap](/draw/corne.svg)
