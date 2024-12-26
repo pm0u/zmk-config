@@ -15,7 +15,7 @@
 #define KEYS_R RT0 RT1 RT3 RT4 RM0 RM1 RM2 RM3 RM4 RB0 RB1 RB2 RB3 RB4
 #define THUMBS LH0 LH1 LH2 RH0 RH1 RH2
 
-\{
+/ {
     chosen {
         zmk,physical-layout = &foostan_corne_5col_layout;
         zmk,matrix_transform = &five_column_transform;
