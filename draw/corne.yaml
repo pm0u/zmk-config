@@ -85,10 +85,10 @@ layers:
   - ^+]
   - {type: trans}
   - {type: trans}
-  - ⌘+^+␣
-  - {t: ⌘+4, s: ⌘+$}
-  - {t: ⌘+5, s: ⌘+%}
-  - {t: ⌘+6, s: ⌘+^}
+  - {t: ⌘+^+␣, h: Alt}
+  - {t: ⌘+4, h: Ctrl, s: ⌘+$}
+  - {t: ⌘+5, h: Gui, s: ⌘+%}
+  - {t: ⌘+6, h: Shift, s: ⌘+^}
   - $$mdi:magnify$$
   - ^+H
   - ^+J
