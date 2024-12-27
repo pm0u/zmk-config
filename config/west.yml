@@ -16,13 +16,7 @@ manifest:
     - name: zmk-helpers
       remote: urob
       revision: main
-    - name: glidepoint_i2c_split
-      remote: pm0u
-      revision: main
-    - name: glidepoint_i2c_split_peripheral
-      remote: pm0u
-      revision: main
-    - name: glidepoint_i2c_split_central
+    - name: glidepoint_i2c
       remote: pm0u
       revision: main
     - name: cirque-input-module

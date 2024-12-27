@@ -24,6 +24,6 @@ include:
   - board: nice_nano_v2
     shield: lily58_right nice_view_adapter nice_view
   - board: nice_nano_v2
-    shield: corne_left glidepoint_i2c_split glidepoint_i2c_split_central nice_view_adapter nice_view
+    shield: corne_left glidepoint_i2c_split_central nice_view_adapter nice_view
   - board: nice_nano_v2
-    shield: corne_right glidepoint_i2c_split glidepoint_i2c_split_peripheral
+    shield: corne_right glidepoint_i2c_split_peripheral
