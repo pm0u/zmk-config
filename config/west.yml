@@ -4,6 +4,10 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: urob
       url-base: https://github.com/urob
+    - name: pm0u
+      url-base: https://github.com/pm0u
+    - name: petejohanson
+      url-base: https://github.com/petejohanson
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -11,6 +15,18 @@ manifest:
       import: app/west.yml
     - name: zmk-helpers
       remote: urob
+      revision: main
+    - name: glidepoint_i2c_split
+      remote: pm0u
+      revision: main
+    - name: glidepoint_i2c_peripheral
+      remote: pm0u
+      revision: main
+    - name: glidepoint_i2c_central
+      remote: pm0u
+      revision: main
+    - name: cirque-input-module
+      remote: petejohanson
       revision: main
   self:
     path: config

@@ -34,8 +34,6 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
 &lt {
     flavor = "hold-preferred";
-    // not sure on that one yet..
-    //retro-tap;
 };
 
 // reusable arrow keys ← ↓ ↑ →
