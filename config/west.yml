@@ -19,10 +19,10 @@ manifest:
     - name: glidepoint_i2c_split
       remote: pm0u
       revision: main
-    - name: glidepoint_i2c_peripheral
+    - name: glidepoint_i2c_split_peripheral
       remote: pm0u
       revision: main
-    - name: glidepoint_i2c_central
+    - name: glidepoint_i2c_split_central
       remote: pm0u
       revision: main
     - name: cirque-input-module
