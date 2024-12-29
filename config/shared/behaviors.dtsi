@@ -17,10 +17,6 @@ SIMPLE_MORPH(comma_semi, SFT, &kp COMMA, &kp SEMI)
 // tap: dot | shift + tap: colon
 SIMPLE_MORPH(dot_colon, SFT, &kp DOT, &kp COLON)
 
-// tap { | shift + tap: [
-SIMPLE_MORPH(lbrc, SFT, &kp LBRC, &kp LBKT)
-SIMPLE_MORPH(rbrc, SFT, &kp RBRC, &kp RBKT)
-
 // tap: sticky-shift | shift + tap/ double-tap: caps-word | hold: shift
 ZMK_MOD_MORPH(smart_shft,
     bindings = <&sk LSHFT>, <&caps_word>;
@@ -49,8 +45,8 @@ ZMK_BEHAVIOR(g_than, tap_dance,
 )
 
 ZMK_BEHAVIOR(nav, tap_dance,
-    tapping-term-ms = <400>;
-    bindings = <&lt NAV DEL>, <&mo MV>;
+    tapping-term-ms = <200>;
+    bindings = <&mo NAV>, <&mo MV>;
 )
 
 ZMK_CONDITIONAL_LAYER(util, NAV NUM, UTIL)
