@@ -214,10 +214,10 @@ combos:
   k: ^+V
   l: [base, nav, num]
 - p: [6, 7]
-  k: BSPC
+  k: '['
   l: [base, nav, num]
 - p: [7, 8]
-  k: ⌦
+  k: ']'
   l: [base, nav, num]
 - p: [16, 17]
   k: {t: (, h: ⇧+Gui, s: <}

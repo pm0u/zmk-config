@@ -11,10 +11,10 @@ SIMPLE_MORPH(lpar_lt, SFT, &kp LPAR, &kp LESS_THAN)
 // Tap: lparens  |  shift + tap: <
 SIMPLE_MORPH(rpar_gt, SFT, &kp RPAR, &kp GREATER_THAN)
 
-// tap: comma | shift + tap: semicolon | ctrl + shift + tap: <
+// tap: comma | shift + tap: semicolon
 SIMPLE_MORPH(comma_semi, SFT, &kp COMMA, &kp SEMI)
 
-// tap: dot | shift + tap: colon | ctrl + shift + tap: >
+// tap: dot | shift + tap: colon
 SIMPLE_MORPH(dot_colon, SFT, &kp DOT, &kp COLON)
 
 // tap { | shift + tap: [
@@ -48,19 +48,9 @@ ZMK_BEHAVIOR(g_than, tap_dance,
     bindings = <&kp GREATER_THAN>;
 )
 
-ZMK_BEHAVIOR(lbrk, tap_dance,
-    tapping-term-ms = <0>;
-    bindings = <&kp LBKT>;
-)
-
-ZMK_BEHAVIOR(rbrk, tap_dance,
-    tapping-term-ms = <0>;
-    bindings = <&kp RBKT>;
-)
-
 ZMK_BEHAVIOR(nav, tap_dance,
     tapping-term-ms = <400>;
-    bindings = <&mo NAV>, <&mo MV>;
+    bindings = <&lt NAV DEL>, <&mo MV>;
 )
 
 ZMK_CONDITIONAL_LAYER(util, NAV NUM, UTIL)

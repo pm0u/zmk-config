@@ -336,11 +336,11 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="600" y="19" width="20" height="30" class="combo"/>
-<text x="610" y="34" class="combo tap">BSPC</text>
+<text x="610" y="34" class="combo tap">[</text>
 </g>
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="661" y="19" width="20" height="30" class="combo"/>
-<text x="671" y="34" class="combo tap">⌦</text>
+<text x="671" y="34" class="combo tap">]</text>
 </g>
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="600" y="80" width="20" height="30" class="combo"/>
