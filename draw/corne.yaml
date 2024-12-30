@@ -239,6 +239,11 @@ combos:
 - p: [27, 28]
   k: '}'
   l: [base, nav, num]
+- p: [26, 28]
+  k: ()=>
+  l: [base, nav, num]
+  a: bottom
+  w: 40.0
 - p: [11, 1]
   k: '@'
   l: [base, nav, num]
