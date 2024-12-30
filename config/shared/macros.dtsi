@@ -1,12 +1,12 @@
 // (_) => {}
 ZMK_MACRO(fn_open,
       bindings
-          = <&macro_tap &kp LPAR &kp RPAR>;
-          <&macro_tap &kp SPACE &kp EQUAL &kp GREATER_THAN>;
-          <&macro_tap &kp SPACE &kp LBRC &kp RBRC>;
+          = <&macro_tap &kp LPAR &kp RPAR>,
+          <&macro_tap &kp SPACE &kp EQUAL &kp GREATER_THAN>,
+          <&macro_tap &kp SPACE &kp LBRC &kp RBRC>,
           //          1        2        3
-          <&macro_tap &kp LEFT &kp LEFT &kp LEFT>;
+          <&macro_tap &kp LEFT &kp LEFT &kp LEFT>,
           //          4        5        6
-          <&macro_tap &kp LEFT &kp LEFT &kp LEFT>;
+          <&macro_tap &kp LEFT &kp LEFT &kp LEFT>,
           <&macro_tap &kp LEFT>;
 )
