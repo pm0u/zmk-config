@@ -1,7 +1,7 @@
 // (_) => {}
 ZMK_MACRO(fn_open,
       bindings
-          = <&macro_tap &kp LPARENS &kp RPARENS>;
+          = <&macro_tap &kp LPAR &kp RPAR>;
           <&macro_tap &kp SPACE &kp EQUAL &kp GREATER_THAN>;
           <&macro_tap &kp SPACE &kp LBRC &kp RBRC>;
           //          1        2        3

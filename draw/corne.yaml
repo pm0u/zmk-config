@@ -191,6 +191,7 @@ combos:
   l: [base, nav, num]
   a: top
   o: 0.3
+  w: 40.0
 - p: [1, 2]
   k: ^+Z
   l: [base, nav, num]
@@ -207,6 +208,7 @@ combos:
   k: ^+X
   l: [base, nav, num]
   a: bottom
+  w: 40.0
 - p: [21, 22]
   k: ^+C
   l: [base, nav, num]
@@ -220,8 +222,11 @@ combos:
   k: ']'
   l: [base, nav, num]
 - p: [6, 8]
-  k: '&fn_open'
+  k: ()=>{}
   l: [base, nav, num]
+  a: top
+  o: 0.3
+  w: 60.0
 - p: [16, 17]
   k: {t: (, h: ⇧+Gui, s: <}
   l: [base, nav, num]
