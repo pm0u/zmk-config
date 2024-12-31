@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: Gui}
-  - {t: S, h: Alt}
-  - {t: D, h: Ctrl}
-  - {t: F, h: Shift}
+  - {t: A, h: Shift}
+  - {t: S, h: Gui}
+  - {t: D, h: Alt}
+  - {t: F, h: Ctrl}
   - G
   - H
-  - {t: J, h: Shift}
-  - {t: K, h: Ctrl}
-  - {t: L, h: Alt}
-  - {t: '''', h: Gui}
+  - {t: J, h: Ctrl}
+  - {t: K, h: Alt}
+  - {t: L, h: Gui}
+  - {t: '''', h: Shift}
   - Z
   - X
   - C
@@ -49,9 +49,9 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
+  - {t: '4', h: Gui, s: $}
+  - {t: '5', h: Alt, s: '%'}
+  - {t: '6', h: Ctrl, s: ^}
   - {type: trans}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
@@ -85,10 +85,10 @@ layers:
   - ^+]
   - {type: trans}
   - {type: trans}
-  - {t: '⎇+$$mdi:arrow-up$$', h: Gui}
-  - {t: ⎇+4, h: Alt, s: ⎇+$}
-  - {t: ⎇+5, h: Ctrl, s: ⎇+%}
-  - {t: ⎇+6, h: Shift, s: ⎇+^}
+  - {t: '$$mdi:dock-window$$', h: Shift}
+  - {t: ⎇+4, h: Gui, s: ⎇+$}
+  - {t: ⎇+5, h: Alt, s: ⎇+%}
+  - {t: ⎇+6, h: Ctrl, s: ⎇+^}
   - $$mdi:magnify$$
   - ⎇+H
   - ⎇+J
@@ -133,7 +133,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: ⎇+⇧+1, s: ⎇+⇧+!}
+  - {t: ⌘+⇧+1, s: ⌘+⇧+!}
   - {t: ⎇+⇧+2, s: ⎇+⇧+@}
   - {t: ⎇+⇧+3, s: ⎇+⇧+#}
   - {type: trans}
