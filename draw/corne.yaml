@@ -133,7 +133,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: ⌘+⇧+1, s: ⌘+⇧+!}
+  - {t: ⎇+⇧+1, s: ⎇+⇧+!}
   - {t: ⎇+⇧+2, s: ⎇+⇧+@}
   - {t: ⎇+⇧+3, s: ⎇+⇧+#}
   - {type: trans}
