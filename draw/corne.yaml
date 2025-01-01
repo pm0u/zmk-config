@@ -199,10 +199,10 @@ combos:
   k: ^+⇧+Z
   l: [base, nav, num]
 - p: [13, 12]
-  k: {t: Tab, h: ⇧+Gui}
+  k: {t: Tab, h: ⇧+Ctrl}
   l: [base, nav, num]
 - p: [12, 11]
-  k: {t: Esc, h: ⌘+Ctrl}
+  k: {t: Esc, h: ⇧+Alt}
   l: [base, nav, num]
 - p: [21, 23]
   k: ^+X
@@ -228,10 +228,10 @@ combos:
   o: 0.3
   w: 60.0
 - p: [16, 17]
-  k: {t: (, h: ⇧+Gui, s: <}
+  k: {t: (, h: ⇧+Ctrl, s: <}
   l: [base, nav, num]
 - p: [17, 18]
-  k: {t: ), h: ⌘+Ctrl, s: '>'}
+  k: {t: ), h: ⇧+Alt, s: '>'}
   l: [base, nav, num]
 - p: [26, 27]
   k: '{'
