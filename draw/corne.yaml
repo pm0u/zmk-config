@@ -216,10 +216,10 @@ combos:
   k: ^+V
   l: [base, nav, num]
 - p: [6, 7]
-  k: '['
+  k: '{'
   l: [base, nav, num]
 - p: [7, 8]
-  k: ']'
+  k: '}'
   l: [base, nav, num]
 - p: [6, 8]
   k: ()=>{}
@@ -234,10 +234,10 @@ combos:
   k: {t: ), h: ⇧+Alt, s: '>'}
   l: [base, nav, num]
 - p: [26, 27]
-  k: '{'
+  k: '['
   l: [base, nav, num]
 - p: [27, 28]
-  k: '}'
+  k: ']'
   l: [base, nav, num]
 - p: [26, 28]
   k: ()=>

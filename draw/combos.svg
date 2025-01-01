@@ -333,11 +333,11 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="600" y="19" width="20" height="30" class="combo"/>
-<text x="610" y="34" class="combo tap">[</text>
+<text x="610" y="34" class="combo tap">{</text>
 </g>
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="661" y="19" width="20" height="30" class="combo"/>
-<text x="671" y="34" class="combo tap">]</text>
+<text x="671" y="34" class="combo tap">}</text>
 </g>
 <g class="combo combopos-10">
 <path d="M640,-12 h-55 a6.0,6.0 0 0 0 -6.0,6.0 v23" class="combo"/>
@@ -359,11 +359,11 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="600" y="141" width="20" height="30" class="combo"/>
-<text x="610" y="156" class="combo tap">{</text>
+<text x="610" y="156" class="combo tap">[</text>
 </g>
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="661" y="141" width="20" height="30" class="combo"/>
-<text x="671" y="156" class="combo tap">}</text>
+<text x="671" y="156" class="combo tap">]</text>
 </g>
 <g class="combo combopos-15">
 <path d="M640,192 h-55 a6.0,6.0 0 0 1 -6.0,-6.0 v-5" class="combo"/>
