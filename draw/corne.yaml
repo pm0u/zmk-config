@@ -127,10 +127,10 @@ layers:
   - {t: ⎇+⇧+5, s: ⎇+⇧+%}
   - {t: ⎇+⇧+6, s: ⎇+⇧+^}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - ⇧+⎇+H
+  - ⇧+⎇+J
+  - ⇧+⎇+K
+  - ⇧+⎇+L
   - {type: trans}
   - {type: trans}
   - {t: ⎇+⇧+1, s: ⎇+⇧+!}

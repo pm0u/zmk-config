@@ -41,8 +41,11 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 // reusable arrow keys ← ↓ ↑ →
 #define ARROWS  &kp LEFT &kp DOWN &kp UP &kp RIGHT
 
-// space move cluster
+// space move focus cluster
 #define FOCUS &kp LA(H) &kp LA(J) &kp LA(K) &kp LA(L)
+
+// space move window cluster
+#define MOVE &kp LS(LA(H)) &kp LS(LA(J)) &kp LS(LA(K)) &kp LS(LA(L))
 
 // tab change
 #define TABS &kp LC(LBKT) &kp LC(RBKT)
