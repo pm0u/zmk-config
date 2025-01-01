@@ -658,13 +658,15 @@ svg.keymap { font-family: 'JetBrains Mono'; }</style>
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
 <rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
 </g>
-<g transform="translate(518, 168)" class="key trans keypos-25">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
+<g transform="translate(518, 168)" class="key keypos-25">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
+<text x="0" y="-4" class="key tap">^+⇧+P</text>
 </g>
-<g transform="translate(580, 160)" class="key trans keypos-26">
-<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>
-<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key trans"/>
+<g transform="translate(580, 160)" class="key keypos-26">
+<rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key side"/>
+<rect rx="4" ry="4" x="-26" y="-28" width="51" height="45" class="key"/>
+<text x="0" y="-4" class="key tap">^+P</text>
 </g>
 <g transform="translate(640, 152)" class="key trans keypos-27">
 <rect rx="6" ry="6" x="-28" y="-28" width="57" height="57" class="key trans side"/>

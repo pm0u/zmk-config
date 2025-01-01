@@ -100,8 +100,8 @@ layers:
   - {t: ⎇+2, s: ⎇+@}
   - {t: ⎇+3, s: ⎇+#}
   - {type: trans}
-  - {type: trans}
-  - {type: trans}
+  - ^+⇧+P
+  - ^+P
   - {type: trans}
   - {type: trans}
   - {type: trans}
