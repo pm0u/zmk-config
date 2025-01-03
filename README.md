@@ -4,7 +4,7 @@
 
 - heavily inspired by [urob config](https://github.com/urob/zmk-config) (combos > layers)
 - common symbols for JS/TS are prioritized (some deviaton from urob config here)
-  - Brace is swapped with bracket for normal/shifted behavior (used more in my day to day)
+  - Brace is available on bottom row, bracket on top row. I keep a dedicated backspace and don't really use delete (I use `x` in vim)
   - Swap back vertical combo & to be below 7 with | below - I do more logical compares than maths so this made sense for my use and it follows the number symbol row more closely
   - Horizontal combos on the left middle row for undo, redo, and select all. Along with cut/copy/paste (bottom row combos) this allows for most text related actions I need while using a mouse, all on left hand.
 - homerow mods ("Timeless" per urob) Homerow follows ACGS mods
@@ -12,8 +12,10 @@
 - navigation layers
   - with the tiling window shortcuts above, i have the `space` and `move` layers set up for single handed window movement if needed (eg, while using mouse)
 - Key / shift remap (per urob)
-  - ? / ! are combined with f slash (/) available via combo (per urob)
-  - , / ; and . / : tap/shift tap. < / > are available as shifted parens combos (homerow) or Ctrl+Shift+(,/.) or nav layer combos
+  - ? / ! are combined, with f slash (/) available via combo (per urob)
+  - , / ; and . / : on tap, shift tap. < / > are available as shifted parens combos (homerow)
+- Macros
+  - javascript function macros on top, bottom rows via combo. these place the cursor inside the parens.
 - vim like nav on base/nav layers
 
 ## OS Accommodations

@@ -56,6 +56,8 @@ parse_config:
       "&tab": { t: "Tab" },
       "&kp LG(UP)": "$$mdi:dock-window$$",
       "&kp LG(SEMI)": "$$mdi:magnify$$",
+      "&fn_opn": "()=>{}",
+      "&fn_impl": "()=>",
     }
   sticky_label: sticky
   toggle_label: toggle
@@ -280,12 +282,8 @@ parse_config:
     RIGHT: "$$mdi:arrow-right$$"
   zmk_combos:
     {
-      "combo_capsword":
-        { "align": "top", "offset": 0.3, width: 80.0, height: 20.0 },
-      "combo_capslock":
-        { "align": "top", "offset": 0.95, width: 60.0, height: 20.0 },
-      "combo_sk_shft":
-        { "align": "top", "offset": 1.7, width: 60.0, height: 30.0 },
-      "combo_s_all": { "align": "top", "offset": 0.3 },
-      "combo_cut": { "align": "bottom", "offset": 0 },
+      "combo_s_all": { "align": "top", "offset": 0.3, w: 40 },
+      "combo_fn_opn": { "align": "top", "offset": 0.3, w: 60 },
+      "combo_cut": { "align": "bottom", "offset": 0, w: 40 },
+      "combo_fn_impl": { "align": "bottom", "offset": 0, w: 40 },
     }
