@@ -44,6 +44,3 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
 // space move window cluster
 #define MOVE &kp LS(LA(H)) &kp LS(LA(J)) &kp LS(LA(K)) &kp LS(LA(L))
-
-// tab change
-#define TABS &kp LC(LBKT) &kp LC(RBKT)
