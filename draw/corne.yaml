@@ -81,8 +81,8 @@ layers:
   - {t: ⎇+9, s: ⎇+(}
   - {type: trans}
   - {type: trans}
-  - ^+[
-  - ^+]
+  - {type: trans}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {t: ⎇+D, h: Gui}
@@ -175,7 +175,7 @@ layers:
   - {t: BT, h: '1'}
   - {t: BT, h: '0'}
   - {type: trans}
-  - {type: trans}
+  - ^+⇧+⎇+M
   - {type: trans}
   - {type: trans}
   - {type: trans}
