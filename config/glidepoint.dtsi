@@ -23,6 +23,22 @@
       bias-pull-up;
     };
   };
+    
+  &i2c0 {
+      glidepoint: glidepoint@0 {
+          compatible = "cirque,pinnacle";
+          status = "okay";
+          reg = <0>;
+          dr-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
+
+          sensitivity = "4x";
+          sleep;
+      };
+  };
+
+  &glidepoint_split {
+      device = <&glidepoint>;
+  };
 
 #endif
 
