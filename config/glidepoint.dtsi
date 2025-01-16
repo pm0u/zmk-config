@@ -1,0 +1,35 @@
+  / {
+    split_inputs {
+        #address-cells = <1>;
+        #size-cells = <0>;
+
+        glidepoint_split: glidepoint_split@0 {
+            compatible = "zmk,input-split";
+            reg = <0>;
+        };
+    };
+
+    glidepoint_listener: glidepoint_listener {
+        compatible = "zmk,input-listener";
+        status = "disabled";
+        device = <&glidepoint_split>;
+    };
+};
+
+#if SHIELD_CORNE_RIGHT
+
+  &i2c0_default {
+    group1 {
+      bias-pull-up;
+    };
+  };
+
+#endif
+
+#if SHIELD_CORNE_LEFT
+
+  &glidepoint_listener {
+      status = "okay";
+  };
+
+#endif
