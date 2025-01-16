@@ -94,3 +94,5 @@
         };
     };
 };
+
+/delete-node/ &oled;
