@@ -14,7 +14,7 @@
  * if too slow = false positives in rolls
  * if too fast = types out both letters instead
  */
-#define COMBO_TERM_FAST 35
+#define COMBO_TERM_FAST 25
 #define COMBO_TERM_SLOW 50
 
 /**
@@ -25,7 +25,7 @@
  * if too fast = combo will trigger in normal typing
  */
 #define COMBO_IDLE_FAST 170
-#define COMBO_IDLE_SLOW 50
+#define COMBO_IDLE_SLOW 80
 
 //        name,     combo_bindings, keypos,   combo_layers,      timeout-ms,       require-prior-idle-ms
 // Left side
