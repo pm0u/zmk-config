@@ -1,11 +1,5 @@
 #include "glidepoint.dtsi"
 
-&i2c0_default {
-  group1 {
-    bias-pull-up;
-  };
-};
-  
 &pro_micro_i2c {
     status = "okay";
     
