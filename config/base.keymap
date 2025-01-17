@@ -14,6 +14,20 @@
 #include "shared/behaviors.dtsi"
 #include "shared/combos.dtsi"
 
+// cirque trackpad input&layer control
+&glidepoint_listener {
+    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 3 2>;
+
+    lowspeedmode {
+        layers = <NUM>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 3 4>;
+    };
+    scroller {
+        layers = <NAV>;
+        input-processors = <&zip_xy_to_scroll_mapper>,<&zip_scroll_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_Y_INVERT)>,<&zip_scroll_scaler 1 6>;
+    };
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
