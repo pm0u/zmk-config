@@ -15,37 +15,3 @@
         device = <&glidepoint_split>;
     };
 };
-
-#if SHIELD_CORNE_RIGHT
-
-  &i2c0_default {
-    group1 {
-      bias-pull-up;
-    };
-  };
-    
-  &i2c0 {
-      glidepoint: glidepoint@0 {
-          compatible = "cirque,pinnacle";
-          status = "okay";
-          reg = <0>;
-          dr-gpios = <&pro_micro 1 GPIO_ACTIVE_HIGH>;
-
-          sensitivity = "4x";
-          sleep;
-      };
-  };
-
-  &glidepoint_split {
-      device = <&glidepoint>;
-  };
-
-#endif
-
-#if SHIELD_CORNE_LEFT
-
-  &glidepoint_listener {
-      status = "okay";
-  };
-
-#endif

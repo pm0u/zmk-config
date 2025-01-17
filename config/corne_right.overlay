@@ -1,0 +1,20 @@
+&i2c0_default {
+  group1 {
+    bias-pull-up;
+  };
+};
+  
+&pro_micro_i2c {
+    status = "okay";
+    
+    glidepoint: glidepoint@2a {
+        compatible = "cirque,pinnacle";
+        reg = <0x2a>;
+        status = "okay";
+        dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH)>; // DR pin assigned to D1, like nice!view CS pin
+
+        sensitivity = "4x";
+        sleep;
+        no-taps;
+    };
+};
