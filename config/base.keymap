@@ -16,6 +16,18 @@
 #include "shared/behaviors.dtsi"
 #include "shared/combos.dtsi"
 
+/ {
+    input_processors {
+        zip_scroll_scaler: zip_scroll_scaler {
+            compatible = "zmk,input-processor-scaler";
+            #input-processor-cells = <2>;
+            type = <INPUT_EV_REL>;
+            codes = <INPUT_REL_WHEEL INPUT_REL_HWHEEL>;
+            track-remainders;
+        };
+    };
+};
+
 // cirque trackpad input&layer control
 &glidepoint_listener {
     input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 4 1>;
@@ -26,7 +38,7 @@
     };
     scroller {
         layers = <NAV>;
-        input-processors = <&zip_xy_to_scroll_mapper>,<&zip_scroll_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_Y_INVERT)>,<&zip_xy_scaler 1 16>;
+        input-processors = <&zip_xy_to_scroll_mapper>,<&zip_scroll_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_Y_INVERT)>,<&zip_scroll_scaler 1 6>;
     };
 };
 
