@@ -9,7 +9,6 @@
 #define MV      3
 #define UTIL    4
 
-#include "glidepoint.dtsi"
 #include "shared/setup.dtsi"
 #include "shared/macros.dtsi"
 #include "shared/behaviors.dtsi"

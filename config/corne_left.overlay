@@ -1,3 +1,5 @@
+#include "glidepoint.dtsi"
+
   &glidepoint_listener {
       status = "okay";
   };
