@@ -7,6 +7,8 @@
 &pro_micro_i2c {
     status = "okay";
     
+    /delete-property/ oled;
+    
     glidepoint: glidepoint@2a {
         compatible = "cirque,pinnacle";
         reg = <0x2a>;
