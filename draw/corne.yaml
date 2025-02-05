@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: Gui}
-  - {t: S, h: Alt}
+  - {t: A, h: Alt}
+  - {t: S, h: Gui}
   - {t: D, h: Shift}
   - {t: F, h: Ctrl}
   - G
   - H
   - {t: J, h: Ctrl}
   - {t: K, h: Shift}
-  - {t: L, h: Alt}
-  - {t: '''', h: Gui}
+  - {t: L, h: Gui}
+  - {t: '''', h: Alt}
   - Z
   - X
   - C
@@ -49,7 +49,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: '4', h: Alt, s: $}
+  - {t: '4', h: Gui, s: $}
   - {t: '5', h: Shift, s: '%'}
   - {t: '6', h: Ctrl, s: ^}
   - {type: trans}
@@ -85,15 +85,15 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: ⎇+D, h: Gui}
-  - {t: ⎇+4, h: Alt, s: ⎇+$}
+  - {t: ⎇+D, h: Alt}
+  - {t: ⎇+4, h: Gui, s: ⎇+$}
   - {t: ⎇+5, h: Shift, s: ⎇+%}
   - {t: ⎇+6, h: Ctrl, s: ⎇+^}
   - $$mdi:magnify$$
-  - ⎇+H
-  - ⎇+J
-  - ⎇+K
-  - ⎇+L
+  - ⌘+H
+  - ⌘+J
+  - ⌘+K
+  - ⌘+L
   - {type: trans}
   - {type: trans}
   - {t: ⎇+1, s: ⎇+!}
@@ -113,9 +113,9 @@ layers:
   - {type: held}
   move:
   - {type: trans}
-  - {t: ⎇+⇧+7, s: ⎇+⇧+&}
-  - {t: ⎇+⇧+8, s: ⎇+⇧+*}
-  - {t: ⎇+⇧+9, s: ⎇+⇧+(}
+  - {t: ⌘+⇧+7, s: ⌘+⇧+&}
+  - {t: ⌘+⇧+8, s: ⌘+⇧+*}
+  - {t: ⌘+⇧+9, s: ⌘+⇧+(}
   - {type: trans}
   - {type: trans}
   - {type: trans}
@@ -123,27 +123,27 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: ⎇+⇧+4, s: ⎇+⇧+$}
-  - {t: ⎇+⇧+5, s: ⎇+⇧+%}
-  - {t: ⎇+⇧+6, s: ⎇+⇧+^}
+  - {t: ⌘+⇧+4, s: ⌘+⇧+$}
+  - {t: ⌘+⇧+5, s: ⌘+⇧+%}
+  - {t: ⌘+⇧+6, s: ⌘+⇧+^}
   - {type: trans}
-  - ⇧+⎇+H
-  - ⇧+⎇+J
-  - ⇧+⎇+K
-  - ⇧+⎇+L
-  - {type: trans}
-  - {type: trans}
-  - {t: ⎇+⇧+1, s: ⎇+⇧+!}
-  - {t: ⎇+⇧+2, s: ⎇+⇧+@}
-  - {t: ⎇+⇧+3, s: ⎇+⇧+#}
+  - ⇧+⌘+H
+  - ⇧+⌘+J
+  - ⇧+⌘+K
+  - ⇧+⌘+L
   - {type: trans}
   - {type: trans}
+  - {t: ⌘+⇧+1, s: ⌘+⇧+!}
+  - {t: ⌘+⇧+2, s: ⌘+⇧+@}
+  - {t: ⌘+⇧+3, s: ⌘+⇧+#}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: ⎇+⇧+0, s: ⎇+⇧+)}
+  - {type: trans}
+  - {type: trans}
+  - {t: ⌘+⇧+0, s: ⌘+⇧+)}
   - {type: trans}
   - {type: trans}
   - {type: trans}

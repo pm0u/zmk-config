@@ -49,10 +49,4 @@ ZMK_BEHAVIOR(nav, tap_dance,
     bindings = <&mo NAV>, <&mo MV>;
 )
 
-ZMK_BEHAVIOR(bspc_d, hold_tap,
-    flavor = 'tap-preferred';
-    tapping-term-ms = <150>;
-    quick-tap-ms = <100>;
-)
-
 ZMK_CONDITIONAL_LAYER(util, NAV NUM, UTIL)
