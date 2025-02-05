@@ -76,19 +76,19 @@ layers:
   - {type: held}
   nav:
   - {type: trans}
-  - {t: ⎇+7, s: ⎇+&}
-  - {t: ⎇+8, s: ⎇+*}
-  - {t: ⎇+9, s: ⎇+(}
+  - {t: ⌘+7, s: ⌘+&}
+  - {t: ⌘+8, s: ⌘+*}
+  - {t: ⌘+9, s: ⌘+(}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
-  - {t: ⎇+D, h: Alt}
-  - {t: ⎇+4, h: Gui, s: ⎇+$}
-  - {t: ⎇+5, h: Shift, s: ⎇+%}
-  - {t: ⎇+6, h: Ctrl, s: ⎇+^}
+  - {t: ⌘+D, h: Alt}
+  - {t: ⌘+4, h: Gui, s: ⌘+$}
+  - {t: ⌘+5, h: Shift, s: ⌘+%}
+  - {t: ⌘+6, h: Ctrl, s: ⌘+^}
   - $$mdi:magnify$$
   - ⌘+H
   - ⌘+J
@@ -96,9 +96,9 @@ layers:
   - ⌘+L
   - {type: trans}
   - {type: trans}
-  - {t: ⎇+1, s: ⎇+!}
-  - {t: ⎇+2, s: ⎇+@}
-  - {t: ⎇+3, s: ⎇+#}
+  - {t: ⌘+1, s: ⌘+!}
+  - {t: ⌘+2, s: ⌘+@}
+  - {t: ⌘+3, s: ⌘+#}
   - {type: trans}
   - ^+⇧+P
   - ^+P
@@ -106,7 +106,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: held}
-  - {t: ⎇+0, s: ⎇+)}
+  - {t: ⌘+0, s: ⌘+)}
   - {type: trans}
   - {type: trans}
   - {type: trans}
