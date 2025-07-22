@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x5_3}
+layout: {zmk_keyboard: corne, layout_name: foostan_corne_5col_layout}
 layers:
   base:
   - Q
@@ -164,7 +164,7 @@ layers:
   - BRI UP
   - BRI DN
   - BT CLR
-  - {type: trans}
+  - SLCK
   - VOL DN
   - VOL UP
   - $$mdi:volume-off$$
