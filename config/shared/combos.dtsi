@@ -28,6 +28,9 @@
 #define COMBO_IDLE_SLOW 60
 
 //        name,     combo_bindings, keypos,   combo_layers,      timeout-ms,       require-prior-idle-ms
+// thumb chord: space + return → momentary FKEY layer
+ZMK_COMBO(fkey, &mo FKEY, LH0 RH0, BASE, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+
 // Left side
 // top row undo, redo, select all
 ZMK_COMBO(s_all, &kp LC(A),     LT3 LT1,      BASE NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)

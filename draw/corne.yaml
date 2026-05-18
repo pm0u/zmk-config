@@ -160,32 +160,72 @@ layers:
   - $$mdi:skip-next$$
   - {type: trans}
   - OUT BLE
-  - OUT USB
+  - {t: BT, h: '4'}
   - BRI UP
   - BRI DN
   - BT CLR
-  - SLCK
+  - {type: trans}
   - VOL DN
   - VOL UP
   - $$mdi:volume-off$$
   - {type: trans}
-  - {t: BT, h: '4'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '2'}
+  - OUT USB
   - {t: BT, h: '1'}
-  - {t: BT, h: '0'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {type: trans}
   - {type: trans}
   - ^+⇧+⎇+M
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: held}
-  - {type: trans}
+  - {t: BT, h: '0'}
   - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: held}
+  fkey:
+  - {type: trans}
+  - F7
+  - F8
+  - F9
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - F4
+  - F5
+  - F6
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - F1
+  - F2
+  - F3
+  - {type: trans}
+  - {type: trans}
+  - F10
+  - F11
+  - F12
+  - {type: trans}
+  - {type: trans}
+  - {type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: trans}
+  - {type: trans}
 combos:
+- p: [32, 33]
+  k: fkey
+  l: [base]
 - p: [1, 3]
   k: ^+A
   l: [base, nav, num]
