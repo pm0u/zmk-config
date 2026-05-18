@@ -160,7 +160,7 @@ layers:
   - $$mdi:skip-next$$
   - {type: trans}
   - OUT BLE
-  - {t: BT, h: '4'}
+  - {t: BT, h: '3'}
   - BRI UP
   - BRI DN
   - BT CLR
@@ -170,9 +170,9 @@ layers:
   - $$mdi:volume-off$$
   - {type: trans}
   - OUT USB
+  - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
   - {type: trans}
   - {type: trans}
   - ^+⇧+⎇+M
@@ -180,7 +180,7 @@ layers:
   - {type: trans}
   - {type: trans}
   - {type: held}
-  - {t: BT, h: '0'}
+  - {type: trans}
   - {type: trans}
   - {type: trans}
   - {type: trans}
