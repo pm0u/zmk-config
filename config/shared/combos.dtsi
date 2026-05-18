@@ -14,8 +14,8 @@
  * if too slow = false positives in rolls
  * if too fast = types out both letters instead
  */
-#define COMBO_TERM_FAST 25
-#define COMBO_TERM_SLOW 50
+#define COMBO_TERM_FAST 20
+#define COMBO_TERM_SLOW 40
 
 /**
  * maps to `require-prior-idle-ms`
@@ -24,8 +24,8 @@
  * if too slow = combo doesn't trigger when needed
  * if too fast = combo will trigger in normal typing
  */
-#define COMBO_IDLE_FAST 170
-#define COMBO_IDLE_SLOW 80
+#define COMBO_IDLE_FAST 150
+#define COMBO_IDLE_SLOW 60
 
 //        name,     combo_bindings, keypos,   combo_layers,      timeout-ms,       require-prior-idle-ms
 // Left side
@@ -48,15 +48,15 @@ ZMK_COMBO(paste, &kp LC(V),     LB2 LB1,      BASE NAV NUM, COMBO_TERM_FAST, COM
 ZMK_COMBO(lbrc,  &kp LBRC,      RT1 RT2,      BASE NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(rbrc,  &kp RBRC,      RT2 RT3,      BASE NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 // fn_open macro
-ZMK_COMBO(fn_opn, &fn_opn,    RT1 RT3,         BASE NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(fn_opn, &fn_opn,      RT1 RT3,      BASE NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
 // home row ()
 ZMK_COMBO(lpar,  &lpar_lt,      RM1 RM2,      BASE NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(RCTRL),    KEYS_L)
 ZMK_COMBO(rpar,  &rpar_gt,      RM2 RM3,      BASE NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST, RS(RALT),   KEYS_L)
 
 // bottom row []
-ZMK_COMBO(lbkt,  &kp LBKT,      RB1 RB2,       BASE NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(rbkt,  &kp RBKT,      RB2 RB3,       BASE NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(lbkt,  &kp LBKT,      RB1 RB2,      BASE NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(rbkt,  &kp RBKT,      RB2 RB3,      BASE NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 // fn_open_impl macro
 ZMK_COMBO(fn_impl, &fn_impl,    RB1 RB3,      BASE NAV NUM, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
